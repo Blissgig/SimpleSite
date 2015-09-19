@@ -51,6 +51,11 @@
   <ItemGroup>
     <Content Include="css\Blissgig.css" />
     <Content Include="css\Mobile.css" />
+    <Content Include="Database Scripts\CREATE SCRIPT spGetArticle.sql" />
+    <Content Include="Database Scripts\CREATE SCRIPT spSaveArticle.sql" />
+    <Content Include="Database Scripts\CREATE TABLE lkArticleType.sql" />
+    <Content Include="Database Scripts\CREATE TABLE tbArticle.sql" />
+    <Content Include="Database Scripts\CREATE TABLE tbArticleType.sql" />
     <Content Include="Default.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
