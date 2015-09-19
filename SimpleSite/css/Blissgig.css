@@ -1,0 +1,131 @@
+﻿html {
+	height:100%;
+	width:99%
+}
+body {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9cc5e5+0,317bc1+99 */
+    background: #9cc5e5; /* Old browsers */
+    /*background: -moz-linear-gradient(top,  #9cc5e5 0%, #317bc1 99%); /* FF3.6+ */
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9cc5e5), color-stop(99%,#317bc1)); /* Chrome,Safari4+ */
+    /*background: -webkit-linear-gradient(top,  #9cc5e5 0%,#317bc1 99%); /* Chrome10+,Safari5.1+ */
+    /*background: -o-linear-gradient(top,  #9cc5e5 0%,#317bc1 99%); /* Opera 11.10+ */
+    /*background: -ms-linear-gradient(top,  #9cc5e5 0%,#317bc1 99%); /* IE10+ */
+    /*background: linear-gradient(to bottom,  #9cc5e5 0%,#317bc1 99%); /* W3C */
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9cc5e5', endColorstr='#317bc1',GradientType=0 ); /* IE6-9 */    
+}
+a {
+	text-decoration:none;
+    color:white;
+}
+
+.bgBody {
+	width:850px;
+	margin-left:auto;
+	margin-right:auto;
+	border:4px solid #317bc1;
+	background:white;
+	position:relative;
+	height:auto;
+	min-height:100%;
+	border-radius:4px;
+}
+
+.Titlebar {
+	background:#317bc1;
+	position:relative;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:76px;
+}
+
+.IconTitle{
+	position:relative;
+	width:72px;
+	height:72px;
+	border:2px;
+}
+
+.ArticleTitle{
+	position:relative;
+	left:80px;
+	top:-72px;
+	font-size:42px;
+	font-family:"arial";
+	color:white;
+	z-index:11;
+}
+
+.ArticleDate{
+	position:absolute;
+	left:80px;
+	top:50px;
+	font-size:16px;
+	font-family:"arial";
+	color:white;
+	z-index:11;
+}
+
+.ArticleBody{
+	position:relative;
+	width:95%;
+	font-size:16px;
+	font-family:"arial";
+	color:black;
+	padding:8px;
+    border:4px solid white;	
+	text-align:justify;
+	z-index:10;	
+}
+
+.ArticleBody a:link{
+    color:#34A9FD;
+}
+
+.ArticleBody a:hover{
+    color:#034E85;
+}
+
+.ArticleBody a:visited{
+    color:#34A9FD;
+}
+
+.ButtonIcon{
+	position:relative;
+	width:54px;
+	height:54px;
+	padding-left:4px;
+}
+
+.ButtonTitle{
+	position:relative;
+	left:60px;
+	top:-54px;
+	font-size:36px;
+	font-family:"arial";
+	color:white;
+	z-index:11;
+}
+
+.Articles{
+	position:relative;
+	width:100%;
+	height:auto;
+	display:block;
+	min-height:10%;
+}
+
+.ArticleButton{
+	background:#317bc1;
+	position:relative;
+	margin-right:4px;
+	margin-left:4px;
+	margin-top:4px;
+	margin-bottom:4px;
+	height:54px;
+	font-size:26px;
+	font-family:"arial";
+	color:white;
+	z-index:11;
+	border-radius:4px;
+}

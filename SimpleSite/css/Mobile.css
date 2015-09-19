@@ -1,0 +1,57 @@
+﻿.bgBody {
+	width:98%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.Titlebar {
+	height:88px;
+}
+
+.IconTitle{
+	width:84px;
+	height:84px;
+}
+
+.ArticleTitle{
+	left:92px;
+	top:-88px;
+	font-size:52px;
+}
+
+.ArticleDate{
+	position:absolute;
+	left:92px;
+	top:50px;
+	font-size:24px;
+}
+
+.ArticleBody{
+	font-size:26px;
+}
+
+.ArticleButton{
+	background:#317bc1;
+	position:relative;
+	margin-right:4px;
+	margin-left:4px;
+	margin-top:4px;
+	margin-bottom:4px;
+	height:64px;
+	border-radius:4px;
+}
+
+.ButtonTitle{
+	position:relative;
+	left:70px;
+	top:-60px;
+	font-size:46px;
+	font-family:"arial";
+	color:white;
+	z-index:11;
+}
+
+.ButtonIcon{
+	width:60px;
+	height:60px;
+}
